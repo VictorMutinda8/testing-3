@@ -2,9 +2,9 @@
 
 ## 👤 Student Information
 
-- **Full Name:** [Your Full Name]  
-- **Cohort:** [e.g., October 2025]  
-- **Date:** [Submission Date]  
+- **Full Name:** [Victor mutinda]  
+- **Cohort:** [July October 2025]  
+- **Date:** [17 October 2025]  
 
 ---
 
@@ -22,9 +22,9 @@
 
 | Issue Type            | Description                                                                 |
 |-----------------------|-----------------------------------------------------------------------------|
-| Manual Code Review    | Describe the issue found during your manual review of `gallery.html` (e.g., logic error, performance concern, etc.). |
-| SonarQube             | Provide a description of the issue flagged by SonarQube (e.g., security vulnerability, code smell). |
-| Best Practices        | Mention any areas where the code violates best practices (e.g., accessibility, code clarity, etc.). |
+| Manual Code Review    | Undeclared loop variable: The loop counter i is used without let, making it a global variable and causing potential conflicts.
+| SonarQube             | Undeclared variable i flagged as a maintainability issue. SonarQube also highlighted inline event handlers that reduce code clarity and reuse. |
+| Best Practices        | Accessibility gaps: <div> and <p> are used for image captions instead of semantic <figure> and <figcaption>; filter buttons lack ARIA attributes.
 
 **GitHub Issues Filed:**  
 - [Link to Issue 1](#)  
@@ -38,17 +38,16 @@
 ## 💬 Reflection
 
 1. **What did you learn from reviewing this code?**  
-   Describe what you learned from reviewing the `requirements.md` document and the code (`gallery.html`). Did you spot anything unexpected or gain a deeper understanding of certain practices?
+   Reviewing requirements.md reinforced the importance of clear, measurable, and testable requirements, especially for accessibility and performance. The manual review of gallery.html helped identify subtle issues like loop scoping, DOM structure, and accessibility gaps, while SonarQube caught additional maintainability concerns that were easy to miss manually.
 
 2. **Which part of the code or documentation had the most issues?**  
-   Explain which part of the `gallery.html` or `requirements.md` had the most defects, unclear logic, or lacked necessary detail. Why do you think this happened?
-
-3. **What testing strategy worked best for you?**  
-   Reflect on the combination of manual review and SonarQube analysis. Which method helped you identify the most critical issues?
-
-4. **What was challenging during this assignment?**  
-   Describe any difficulties you faced while reviewing the code manually or using SonarQube. Were there any parts of the code or requirements that were especially hard to evaluate?
-
+   The gallery.html JavaScript section and the HTML markup had the most defects, mainly around variable scope, semantic structure, and accessibility. These issues occurred because initial code focused more on visual presentation and functionality rather than maintainability and compliance with best practices.
+   
+4. **What testing strategy worked best for you?**  
+   A combination of manual code review and SonarQube analysis was most effective. Manual review helped catch UI/UX and logic errors, while SonarQube automatically flagged undeclared variables, maintainability concerns, and potential semantic issues.
+   
+6. **What was challenging during this assignment?**  
+  Evaluating accessibility compliance manually was challenging, as it requires understanding ARIA roles and semantic HTML. Also, interpreting SonarQube issues and distinguishing critical versus minor code smells required careful analysis.
 ---
 
 ## ✅ Checklist
