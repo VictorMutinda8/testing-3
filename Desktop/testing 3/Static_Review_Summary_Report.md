@@ -27,9 +27,9 @@
 | Best Practices        | Accessibility gaps: <div> and <p> are used for image captions instead of semantic <figure> and <figcaption>; filter buttons lack ARIA attributes.
 
 **GitHub Issues Filed:**  
-- [Link to Issue 1](#)  
-- [Link to Issue 2](#)  
-- [Link to Issue 3](#)  
+- [Link to Issue 1]([#](https://github.com/VictorMutinda8/testing-3/issues/1#issue-3527697619))  
+- [Link to Issue 2]([#](https://github.com/VictorMutinda8/testing-3/issues/2#issue-3527707215))  
+- [Link to Issue 3]([#](https://github.com/VictorMutinda8/testing-3/issues/3#issue-3527718995))  
 
 *(Include appropriate labels on each GitHub issue)*
 
