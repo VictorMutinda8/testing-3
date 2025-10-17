@@ -3,7 +3,7 @@
 ## 👤 Student Information
 
 - **Full Name:** [Victor mutinda]  
-- **Cohort:** [July October 2025]  
+- **Cohort:** [July 2025]  
 - **Date:** [17 October 2025]  
 
 ---
