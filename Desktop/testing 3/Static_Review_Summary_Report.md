@@ -24,7 +24,7 @@
 |-----------------------|-----------------------------------------------------------------------------|
 | Manual Code Review    | Undeclared loop variable: The loop counter i is used without let, making it a global variable and causing potential conflicts.
 | SonarQube             | Undeclared variable i flagged as a maintainability issue. SonarQube also highlighted inline event handlers that reduce code clarity and reuse. |
-| Best Practices        | Accessibility gaps: <div> and <p> are used for image captions instead of semantic <figure> and <figcaption>; filter buttons lack ARIA attributes.
+| Best Practices        | Accessibility gaps:<div> and <p> are used for image captions instead of semantic <figure> and <figcaption>; filter buttons lack ARIA attributes.
 
 **GitHub Issues Filed:**  
 - [https://github.com/VictorMutinda8/testing-3/issues/1#issue-3527697619]
