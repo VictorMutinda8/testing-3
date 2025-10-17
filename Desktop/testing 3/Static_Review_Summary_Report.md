@@ -28,8 +28,8 @@
 
 **GitHub Issues Filed:**  
 - [https://github.com/VictorMutinda8/testing-3/issues/1#issue-3527697619]
-- [Link to Issue 2]([#](https://github.com/VictorMutinda8/testing-3/issues/2#issue-3527707215))  
-- [Link to Issue 3]([#](https://github.com/VictorMutinda8/testing-3/issues/3#issue-3527718995))  
+- [https://github.com/VictorMutinda8/testing-3/issues/2#issue-3527707215]  
+- [https://github.com/VictorMutinda8/testing-3/issues/3#issue-3527718995]
 
 *(Include appropriate labels on each GitHub issue)*
 
