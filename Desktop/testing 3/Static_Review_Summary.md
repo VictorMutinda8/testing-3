@@ -25,7 +25,7 @@ Non-semantic HTML / Accessibility	Best Practice Violation	<div> and <p> used for
 
 C. Code Issues – SonarQube Findings
 Issue	Category	Description	Significance	Agree?
-Undeclared variable	Maintainability	Loop variable i is global	Can cause runtime conflicts and bugs	✅ Yes
+Undeclared variable	Maintainability	Loop variable i is global	Can cause runtime conflicts and bugs	Yes
 Inline anonymous functions	Maintainability	Reduces code clarity and reusability	Makes testing and maintenance harder Partially
 Accessibility / Semantic HTML	Best Practice	<div> instead of <figure>; missing ARIA roles	Impacts screen readers and accessibility	Yes
 
